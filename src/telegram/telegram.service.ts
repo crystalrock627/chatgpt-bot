@@ -45,7 +45,7 @@ export class TelegramService implements OnModuleInit {
           return {
             messages: [
               {
-                content: "ответ минимум 6000 символов",
+                content: prompt,
                 role: "system",
               },
             ],
