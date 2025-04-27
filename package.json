@@ -1,0 +1,30 @@
+{
+  "name": "chatgpt-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grammyjs/runner": "^2.0.3",
+    "@grammyjs/types": "^3.19.0",
+    "@nestjs/axios": "^4.0.0",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.0.16",
+    "@nestjs/platform-express": "^10.0.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "grammy": "^1.35.1",
+    "groq-sdk": "^0.19.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.93.0",
+    "reflect-metadata": "^0.2.1",
+    "rxjs": "^7.8.1"
+  }
+}
